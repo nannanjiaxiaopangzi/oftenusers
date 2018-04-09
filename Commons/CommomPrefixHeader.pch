@@ -1,0 +1,64 @@
+//
+//  CommomPrefixHeader.pch
+//  Commons
+//
+//  Created by King~Nan on 2018/4/8.
+//  Copyright © 2018年 King~Nan. All rights reserved.
+//
+
+#ifndef CommomPrefixHeader_pch
+#define CommomPrefixHeader_pch
+
+
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+//#import <AFNetworking.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <BaiduMapAPI_Search/BMKSearchComponent.h>//引入检索功能所有的头文件
+#import <BaiduMapAPI_Location/BMKLocationComponent.h>//引入定位功能所有的头文件
+#import <WebKit/WebKit.h>
+
+#import "AppDelegate.h"
+#import "publicTools.h"
+#import "navigationCustom.h"
+#import "EasyShowView.h"
+
+#import "AFNetworking.h"
+#import "MBProgressHUD.h"
+#import "MBProgressHUD+Add.h"
+#import "NetWorkManager.h"
+#import "UIButton+WebCache.h"
+#import "UIImage+ZoomSize.h"
+
+
+
+
+#import "RootViewController.h"
+
+#import "FirstViewController.h"
+#import "HomeDetailViewController.h"
+#import "SecondViewController.h"
+#import "ThirdViewController.h"
+#import "InteractiveViewController.h"
+#import "LoginViewController.h"
+
+
+
+#define HEADIMGE_URL @"http://101.201.148.193:8448/api/"
+
+
+
+
+#define WIDTH  [UIScreen mainScreen].bounds.size.width
+#define HEIGHT [UIScreen mainScreen].bounds.size.height
+#define BASIS  [UIColor colorWithRed:34/255.0 green:139/255.0 blue:34/255.0 alpha:1]
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* CommomPrefixHeader_pch */
