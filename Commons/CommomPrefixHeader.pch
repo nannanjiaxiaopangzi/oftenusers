@@ -26,6 +26,7 @@
 #import "publicTools.h"
 #import "navigationCustom.h"
 #import "EasyShowView.h"
+#import "NetWorkManager.h"
 
 #import "AFNetworking.h"
 #import "MBProgressHUD.h"

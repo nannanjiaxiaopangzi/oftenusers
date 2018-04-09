@@ -52,7 +52,6 @@
 {
     //移除观察者 _observe
     [[NSNotificationCenter defaultCenter] removeObserver:self name:@"DidLogin" object:nil];
-    
     [[NSNotificationCenter defaultCenter] removeObserver:self name:@"NoLogin" object:nil];
 }
 

@@ -418,13 +418,13 @@
 				AF5C593B2079F39E00D737FE /* UIImage+ZoomSize.h */,
 				AF5C593C2079F39E00D737FE /* UIImage+ZoomSize.m */,
 				AF5C592F2079EF5700D737FE /* MessageManager.m */,
+				AF5C59352079EF5700D737FE /* MessageManager.h */,
 				AF5C59302079EF5700D737FE /* PositionManager.m */,
-				AF5C59312079EF5700D737FE /* NavBarView.m */,
 				AF5C59322079EF5700D737FE /* NetWorkManager.h */,
+				AF5C59362079EF5700D737FE /* NetWorkManager.m */,
+				AF5C59312079EF5700D737FE /* NavBarView.m */,
 				AF5C59332079EF5700D737FE /* NavBarView.h */,
 				AF5C59342079EF5700D737FE /* PositionManager.h */,
-				AF5C59352079EF5700D737FE /* MessageManager.h */,
-				AF5C59362079EF5700D737FE /* NetWorkManager.m */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -930,7 +930,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/kingnan/Desktop/Commons/Commons/CommomPrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/kingnan/Desktop/oftenusers/Commons/Commons/CommomPrefixHeader.pch;
 				INFOPLIST_FILE = Commons/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -950,7 +950,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/kingnan/Desktop/Commons/Commons/CommomPrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/kingnan/Desktop/oftenusers/Commons/Commons/CommomPrefixHeader.pch;
 				INFOPLIST_FILE = Commons/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (

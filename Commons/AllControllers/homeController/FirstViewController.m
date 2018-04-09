@@ -122,29 +122,26 @@
     }
     NSDictionary * UserModel = @{@"Id":userId,@"Image":str};
     
-    AFHTTPSessionManager * manager = [AFHTTPSessionManager manager];
-    [manager POST:urlStr parameters:UserModel progress:^(NSProgress * _Nonnull uploadProgress) {
-        
-        
-    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        
+    
+    [NetWorkManager postWithUrl:urlStr params:UserModel SuccessHandler:^(id responseObject) {
+       
         NSLog(@"%@",responseObject);
-     
+        
         [self hiddenLoops];
         [self.headerImg setImage:self.headerImage forState:UIControlStateNormal];
         [MBProgressHUD showMessag:@"上传成功" toView:self.view];
         //选取完图片之后关闭视图
         [self dismissViewControllerAnimated:YES completion:nil];
-    
-    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        
+        
+    } failureHandler:^(NSError *error) {
+        
         NSLog(@"%@",error);
         [self hiddenLoops];
         [MBProgressHUD show:@"网络好像跑到火星了!" icon:@"" view:self.view];
         //选取完图片之后关闭视图
         [self dismissViewControllerAnimated:YES completion:nil];
-    
     }];
-    
 }
 
 #pragma mark -- 点击事件方法

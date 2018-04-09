@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-//#import "RootViewController.h"
 @interface ThirdViewController : RootViewController
 
 @end
